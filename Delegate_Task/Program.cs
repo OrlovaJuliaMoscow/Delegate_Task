@@ -28,6 +28,7 @@ namespace Delegate_Task
             MyDelegate myDelegate = Diam;
             myDelegate += Square;
             myDelegate+= Volume;
+            myDelegate.Invoke(r);
             Console.ReadKey();
             
         }
